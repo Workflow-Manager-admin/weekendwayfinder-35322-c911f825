@@ -28,6 +28,10 @@ import { CommonModule } from '@angular/common';
           {{ loading ? 'Signing In...' : 'Sign In' }}
         </button>
         <div *ngIf="error" class="wwf-signin-error">{{ error }}</div>
+        <div class="wwf-signin-nav-row">
+          <a class="wwf-theme-btn" routerLink="/">Main Planner</a>
+          <a class="wwf-theme-btn" routerLink="/">Home</a>
+        </div>
       </form>
     </div>
   `,
@@ -57,6 +61,35 @@ import { CommonModule } from '@angular/common';
       animation: cardFadeIn 0.9s cubic-bezier(.24,.79,.54,1.05) forwards;
       opacity: 0;
       transform: translateY(36px) scale(0.97);
+    }
+    .wwf-signin-nav-row {
+      display: flex;
+      gap: 11px;
+      justify-content: center;
+      margin-top: 15px;
+    }
+    .wwf-theme-btn {
+      display: inline-block;
+      background: linear-gradient(90deg,#1e90ff 70%,#ffb347 170%);
+      color: #fff !important;
+      border: none;
+      border-radius: 18px;
+      font-size: 1.02rem;
+      font-weight: 600;
+      padding: 0.6rem 1.16rem;
+      margin: 0 1px;
+      box-shadow: 0 2.5px 10px #1E90FF22;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.16s, box-shadow 0.16s;
+      letter-spacing: 0.01em;
+    }
+    .wwf-theme-btn:hover, .wwf-theme-btn:focus {
+      filter: brightness(1.07);
+      background: linear-gradient(90deg,#1e90ff 85%,#ffb347 130%);
+      box-shadow: 0 4px 14px #1E90FF31;
+      outline: none;
+      color: #fff;
     }
     @keyframes cardFadeIn {
       to {
@@ -131,6 +164,15 @@ import { CommonModule } from '@angular/common';
       .wwf-signin-card {
         padding: 1.13rem 0.65rem 0.75rem 0.65rem;
         border-radius: 16px;
+      }
+      .wwf-signin-nav-row {
+        flex-direction: column;
+        gap: 7px;
+      }
+      .wwf-theme-btn {
+        font-size: 0.97rem;
+        padding: 0.49rem 0.95rem;
+        border-radius: 12px;
       }
     }
   `]

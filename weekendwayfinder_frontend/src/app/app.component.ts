@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
 
 // PUBLIC_INTERFACE
 @Component({
@@ -16,7 +17,7 @@ export class AppComponent {
   budget: number | '' = '';
   mood: string = '';
 
-  // Placeholder moods
+  // Moods for UI filter
   moods = [
     { label: 'Adventurous', value: 'adventurous' },
     { label: 'Tired', value: 'tired' },
@@ -24,7 +25,7 @@ export class AppComponent {
     { label: 'Bored', value: 'bored' }
   ];
 
-  // Sample micro-trip suggestions, expanded for variety and engagement
+  // Suggestions
   suggestions = [
     {
       destination: 'Coastal Getaway',
@@ -132,6 +133,8 @@ export class AppComponent {
     }
   ];
 
+  constructor(public router: Router) {}
+
   // Simulates dynamic filter for animated cards (future: would be reactive)
   get filteredSuggestions() {
     if (!this.mood) return this.suggestions;
@@ -143,5 +146,10 @@ export class AppComponent {
     /** Looks up human mood label for a given mood value. */
     const found = this.moods.find(x => x.value === moodValue);
     return found ? found.label : '';
+  }
+
+  // For SSR-safe nav state
+  get currentRoute(): string {
+    return this.router.url;
   }
 }

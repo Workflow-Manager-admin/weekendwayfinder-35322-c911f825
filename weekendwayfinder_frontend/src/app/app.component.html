@@ -3,6 +3,20 @@
 <!-- Overlay for background tint -->
 <div class="wwf-overlay"></div>
 
+<!-- In-place navigation, styled non-navbar -->
+<div class="wwf-inplace-nav">
+  <a
+    class="wwf-theme-btn"
+    routerLink="/"
+    *ngIf="currentRoute !== '/' && currentRoute !== ''"
+  >Home</a>
+  <a
+    class="wwf-theme-btn"
+    routerLink="/sign-in"
+    *ngIf="currentRoute !== '/sign-in'"
+  >Sign In</a>
+</div>
+
 <!-- Centered Input Card -->
 <section class="wwf-input-card" aria-label="WeekendWayfinder trip input section">
   <h1>WeekendWayfinder</h1>
@@ -59,5 +73,3 @@
     </div>
   </div>
 </section>
-
-<!-- No router/nav/login UI (as required) -->

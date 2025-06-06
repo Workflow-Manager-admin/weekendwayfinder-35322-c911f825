@@ -203,3 +203,53 @@
 
 /* Hide angular default placeholder content */
 angular-logo, .content, .divider, .social-links, .pill-group, .left-side, .right-side { display: none!important; }
+
+/* In-place navigation buttons (not a navbar!) */
+.wwf-inplace-nav {
+  display: flex;
+  gap: 18px;
+  justify-content: flex-end;
+  position: fixed;
+  top: 28px;
+  right: 36px;
+  z-index: 14;
+  pointer-events: all;
+}
+
+.wwf-theme-btn {
+  display: inline-block;
+  background: linear-gradient(90deg,#1e90ff 70%,#ffb347 170%);
+  color: #fff;
+  border: none;
+  border-radius: 19px;
+  font-size: 1.08rem;
+  font-weight: 600;
+  padding: 0.6rem 1.29rem;
+  margin: 0 3px;
+  box-shadow: 0 2.5px 10px #1E90FF22;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.16s, box-shadow 0.16s;
+  letter-spacing: 0.01em;
+}
+.wwf-theme-btn:hover, .wwf-theme-btn:focus {
+  filter: brightness(1.07);
+  background: linear-gradient(90deg,#1e90ff 85%,#ffb347 130%);
+  box-shadow: 0 4px 14px #1E90FF31;
+  outline: none;
+}
+
+@media (max-width: 530px) {
+  .wwf-inplace-nav {
+    top: 12px;
+    right: 8px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  .wwf-theme-btn {
+    padding: 0.48rem 1.03rem;
+    font-size: 1rem;
+    border-radius: 14px;
+  }
+}
