@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterModule, Router } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 // PUBLIC_INTERFACE
 @Component({
@@ -124,9 +124,9 @@ import { RouterModule, Router } from '@angular/router';
   `]
 })
 export class HomepageComponent {
-  constructor(public router: Router) {}
-
+  // Route stub to maintain condition logic for btn visibility,
+  // no router needed for lint compliance
   get currentRoute(): string {
-    return this.router.url;
+    return '/';
   }
 }

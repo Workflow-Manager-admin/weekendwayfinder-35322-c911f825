@@ -9,895 +9,6 @@ The "disableHostCheck" option will not be used because it is not supported by th
 Browser bundles     
 Initial chunk files  | Names             |  Raw size
 polyfills.js         | polyfills         |  90.20 kB | 
-main.js              | main              |  21.68 kB | 
-chunk-YQOESBWP.js    | -                 | 754 bytes | 
-styles.css           | styles            |  95 bytes | 
-
-                     | Initial total     | 112.73 kB
-
-Lazy chunk files     | Names             |  Raw size
-chunk-CNXZIUTO.js    | sign-in-component |   7.62 kB | 
-
-
-Server bundles      
-Initial chunk files  | Names             |  Raw size
-polyfills.server.mjs | polyfills.server  | 572.91 kB | 
-chunk-RRZUN46D.mjs   | -                 |  22.03 kB | 
-server.mjs           | server            |   1.42 kB | 
-main.server.mjs      | main.server       | 831 bytes | 
-chunk-FFILDKJJ.mjs   | -                 | 788 bytes | 
-
-Lazy chunk files     | Names             |  Raw size
-chunk-HONTVRJU.mjs   | sign-in-component |   7.65 kB | 
-
-Application bundle generation complete. [2.528 seconds]
-
-Watch mode enabled. Watching for file changes...
-NOTE: Raw file sizes do not reflect development server per-request transformations.
-  ➜  Local:   http://localhost:3000/
-  ➜  Network: http://172.17.0.2:3000/
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names       |  Raw size
-main.js             | main        |  22.47 kB | 
-
-
-Server bundles     
-Initial chunk files | Names       |  Raw size
-chunk-VEYRWLG5.mjs  | -           |  22.83 kB | 
-server.mjs          | server      |   1.42 kB | 
-main.server.mjs     | main.server | 831 bytes | 
-
-Application bundle generation complete. [0.544 seconds]
-
-▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/homepage.component.ts:19:11:
-      19 │           *ngIf="location.pathname !== '/' && location.pathname !=...
-         ╵            ~~~~
-
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names       |  Raw size
-main.js             | main        |  23.56 kB | 
-
-
-Server bundles     
-Initial chunk files | Names       |  Raw size
-chunk-47XBDJGB.mjs  | -           |  23.93 kB | 
-server.mjs          | server      |   1.42 kB | 
-main.server.mjs     | main.server | 831 bytes | 
-
-Application bundle generation complete. [0.193 seconds]
-
-▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/homepage.component.ts:19:11:
-      19 │           *ngIf="location.pathname !== '/' && location.pathname !=...
-         ╵            ~~~~
-
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names       |  Raw size
-main.js             | main        |  23.56 kB | 
-
-
-Server bundles     
-Initial chunk files | Names       |  Raw size
-chunk-AUXC5FJA.mjs  | -           |  23.93 kB | 
-server.mjs          | server      |   1.42 kB | 
-main.server.mjs     | main.server | 831 bytes | 
-
-Application bundle generation complete. [0.173 seconds]
-
-▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/homepage.component.ts:20:11:
-      20 │           *ngIf="location.pathname !== '/' && location.pathname !=...
-         ╵            ~~~~
-
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names       |  Raw size
-main.js             | main        |  23.59 kB | 
-
-
-Server bundles     
-Initial chunk files | Names       |  Raw size
-chunk-KLLK67FL.mjs  | -           |  23.95 kB | 
-server.mjs          | server      |   1.42 kB | 
-main.server.mjs     | main.server | 831 bytes | 
-
-Application bundle generation complete. [0.198 seconds]
-
-▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/homepage.component.ts:20:11:
-      20 │           *ngIf="location.pathname !== '/' && location.pathname !=...
-         ╵            ~~~~
-
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.381 seconds]
-
-▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/homepage.component.ts:20:11:
-      20 │           *ngIf="location.pathname !== '/' && location.pathname !=...
-         ╵            ~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:20:
-      11 │     *ngIf="location.pathname !== '/' && location.pathname !== ''"
-         ╵                     ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:49:
-      11 │     *ngIf="location.pathname !== '/' && location.pathname !== ''"
-         ╵                                                  ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:16:20:
-      16 │     *ngIf="location.pathname !== '/sign-in'"
-         ╵                     ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.298 seconds]
-
-▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/homepage.component.ts:20:11:
-      20 │           *ngIf="location.pathname !== '/' && location.pathname !=...
-         ╵            ~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:20:
-      11 │     *ngIf="location.pathname !== '/' && location.pathname !== ''"
-         ╵                     ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:49:
-      11 │     *ngIf="location.pathname !== '/' && location.pathname !== ''"
-         ╵                                                  ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:16:20:
-      16 │     *ngIf="location.pathname !== '/sign-in'"
-         ╵                     ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.327 seconds]
-
-▲ [WARNING] Duplicate member "location" in class body [duplicate-class-member]
-
-    src/app/app.component.ts:87:4:
-      87 │     location = window.location;
-         ╵     ~~~~~~~~
-
-  The original member "location" is here:
-
-    src/app/app.component.ts:83:4:
-      83 │     location = '';
-         ╵     ~~~~~~~~
-
-
-▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/homepage.component.ts:20:11:
-      20 │           *ngIf="location.pathname !== '/' && location.pathname !=...
-         ╵            ~~~~
-
-
-▲ [WARNING] Duplicate member "location" in class body [duplicate-class-member]
-
-    src/app/app.component.ts:87:4:
-      87 │     location = window.location;
-         ╵     ~~~~~~~~
-
-  The original member "location" is here:
-
-    src/app/app.component.ts:83:4:
-      83 │     location = '';
-         ╵     ~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:20:
-      11 │     *ngIf="location.pathname !== '/' && location.pathname !== ''"
-         ╵                     ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:49:
-      11 │     *ngIf="location.pathname !== '/' && location.pathname !== ''"
-         ╵                                                  ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:16:20:
-      16 │     *ngIf="location.pathname !== '/sign-in'"
-         ╵                     ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] TS2687: All declarations of 'location' must have identical modifiers. [plugin angular-compiler]
-
-    src/app/app.component.ts:15:2:
-      15 │   location: string = '';
-         ╵   ~~~~~~~~
-
-
-✘ [ERROR] TS2300: Duplicate identifier 'location'. [plugin angular-compiler]
-
-    src/app/app.component.ts:19:18:
-      19 │   public readonly location = window.location;
-         ╵                   ~~~~~~~~
-
-
-✘ [ERROR] TS2687: All declarations of 'location' must have identical modifiers. [plugin angular-compiler]
-
-    src/app/app.component.ts:19:18:
-      19 │   public readonly location = window.location;
-         ╵                   ~~~~~~~~
-
-
-✘ [ERROR] TS2717: Subsequent property declarations must have the same type.  Property 'location' must be of type 'string', but here has type 'Location'. [plugin angular-compiler]
-
-    src/app/app.component.ts:19:18:
-      19 │   public readonly location = window.location;
-         ╵                   ~~~~~~~~
-
-  'location' was also declared here.
-
-    src/app/app.component.ts:15:2:
-      15 │   location: string = '';
-         ╵   ~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.229 seconds]
-
-▲ [WARNING] Duplicate member "location" in class body [duplicate-class-member]
-
-    src/app/app.component.ts:87:4:
-      87 │     location = window.location;
-         ╵     ~~~~~~~~
-
-  The original member "location" is here:
-
-    src/app/app.component.ts:83:4:
-      83 │     location = '';
-         ╵     ~~~~~~~~
-
-
-▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/homepage.component.ts:20:11:
-      20 │           *ngIf="location.pathname !== '/' && location.pathname !=...
-         ╵            ~~~~
-
-
-▲ [WARNING] Duplicate member "location" in class body [duplicate-class-member]
-
-    src/app/app.component.ts:87:4:
-      87 │     location = window.location;
-         ╵     ~~~~~~~~
-
-  The original member "location" is here:
-
-    src/app/app.component.ts:83:4:
-      83 │     location = '';
-         ╵     ~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:20:
-      11 │     *ngIf="location.pathname !== '/' && location.pathname !== ''"
-         ╵                     ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:49:
-      11 │     *ngIf="location.pathname !== '/' && location.pathname !== ''"
-         ╵                                                  ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:16:20:
-      16 │     *ngIf="location.pathname !== '/sign-in'"
-         ╵                     ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] TS2687: All declarations of 'location' must have identical modifiers. [plugin angular-compiler]
-
-    src/app/app.component.ts:15:2:
-      15 │   location: string = '';
-         ╵   ~~~~~~~~
-
-
-✘ [ERROR] TS2300: Duplicate identifier 'location'. [plugin angular-compiler]
-
-    src/app/app.component.ts:19:18:
-      19 │   public readonly location = window.location;
-         ╵                   ~~~~~~~~
-
-
-✘ [ERROR] TS2687: All declarations of 'location' must have identical modifiers. [plugin angular-compiler]
-
-    src/app/app.component.ts:19:18:
-      19 │   public readonly location = window.location;
-         ╵                   ~~~~~~~~
-
-
-✘ [ERROR] TS2717: Subsequent property declarations must have the same type.  Property 'location' must be of type 'string', but here has type 'Location'. [plugin angular-compiler]
-
-    src/app/app.component.ts:19:18:
-      19 │   public readonly location = window.location;
-         ╵                   ~~~~~~~~
-
-  'location' was also declared here.
-
-    src/app/app.component.ts:15:2:
-      15 │   location: string = '';
-         ╵   ~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.214 seconds]
-
-▲ [WARNING] Duplicate member "location" in class body [duplicate-class-member]
-
-    src/app/app.component.ts:87:4:
-      87 │     location = window.location;
-         ╵     ~~~~~~~~
-
-  The original member "location" is here:
-
-    src/app/app.component.ts:83:4:
-      83 │     location = '';
-         ╵     ~~~~~~~~
-
-
-▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/homepage.component.ts:20:11:
-      20 │           *ngIf="location.pathname !== '/' && location.pathname !=...
-         ╵            ~~~~
-
-
-▲ [WARNING] Duplicate member "location" in class body [duplicate-class-member]
-
-    src/app/app.component.ts:87:4:
-      87 │     location = window.location;
-         ╵     ~~~~~~~~
-
-  The original member "location" is here:
-
-    src/app/app.component.ts:83:4:
-      83 │     location = '';
-         ╵     ~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:20:
-      11 │     *ngIf="location.pathname !== '/' && location.pathname !== ''"
-         ╵                     ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:49:
-      11 │     *ngIf="location.pathname !== '/' && location.pathname !== ''"
-         ╵                                                  ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:16:20:
-      16 │     *ngIf="location.pathname !== '/sign-in'"
-         ╵                     ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] TS2687: All declarations of 'location' must have identical modifiers. [plugin angular-compiler]
-
-    src/app/app.component.ts:15:2:
-      15 │   location: string = '';
-         ╵   ~~~~~~~~
-
-
-✘ [ERROR] TS2300: Duplicate identifier 'location'. [plugin angular-compiler]
-
-    src/app/app.component.ts:19:18:
-      19 │   public readonly location = window.location;
-         ╵                   ~~~~~~~~
-
-
-✘ [ERROR] TS2687: All declarations of 'location' must have identical modifiers. [plugin angular-compiler]
-
-    src/app/app.component.ts:19:18:
-      19 │   public readonly location = window.location;
-         ╵                   ~~~~~~~~
-
-
-✘ [ERROR] TS2717: Subsequent property declarations must have the same type.  Property 'location' must be of type 'string', but here has type 'Location'. [plugin angular-compiler]
-
-    src/app/app.component.ts:19:18:
-      19 │   public readonly location = window.location;
-         ╵                   ~~~~~~~~
-
-  'location' was also declared here.
-
-    src/app/app.component.ts:15:2:
-      15 │   location: string = '';
-         ╵   ~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.189 seconds]
-
-▲ [WARNING] Duplicate member "location" in class body [duplicate-class-member]
-
-    src/app/app.component.ts:87:4:
-      87 │     location = window.location;
-         ╵     ~~~~~~~~
-
-  The original member "location" is here:
-
-    src/app/app.component.ts:83:4:
-      83 │     location = '';
-         ╵     ~~~~~~~~
-
-
-▲ [WARNING] Duplicate member "location" in class body [duplicate-class-member]
-
-    src/app/app.component.ts:87:4:
-      87 │     location = window.location;
-         ╵     ~~~~~~~~
-
-  The original member "location" is here:
-
-    src/app/app.component.ts:83:4:
-      83 │     location = '';
-         ╵     ~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:20:
-      11 │     *ngIf="location.pathname !== '/' && location.pathname !== ''"
-         ╵                     ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:49:
-      11 │     *ngIf="location.pathname !== '/' && location.pathname !== ''"
-         ╵                                                  ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'pathname' does not exist on type 'string'. [plugin angular-compiler]
-
-    src/app/app.component.html:16:20:
-      16 │     *ngIf="location.pathname !== '/sign-in'"
-         ╵                     ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] TS2687: All declarations of 'location' must have identical modifiers. [plugin angular-compiler]
-
-    src/app/app.component.ts:15:2:
-      15 │   location: string = '';
-         ╵   ~~~~~~~~
-
-
-✘ [ERROR] TS2300: Duplicate identifier 'location'. [plugin angular-compiler]
-
-    src/app/app.component.ts:19:18:
-      19 │   public readonly location = window.location;
-         ╵                   ~~~~~~~~
-
-
-✘ [ERROR] TS2687: All declarations of 'location' must have identical modifiers. [plugin angular-compiler]
-
-    src/app/app.component.ts:19:18:
-      19 │   public readonly location = window.location;
-         ╵                   ~~~~~~~~
-
-
-✘ [ERROR] TS2717: Subsequent property declarations must have the same type.  Property 'location' must be of type 'string', but here has type 'Location'. [plugin angular-compiler]
-
-    src/app/app.component.ts:19:18:
-      19 │   public readonly location = window.location;
-         ╵                   ~~~~~~~~
-
-  'location' was also declared here.
-
-    src/app/app.component.ts:15:2:
-      15 │   location: string = '';
-         ╵   ~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles     
-Initial chunk files  | Names             |  Raw size
-polyfills.js         | polyfills         |  90.20 kB | 
-main.js              | main              |  26.14 kB | 
-chunk-YQOESBWP.js    | -                 | 754 bytes | 
-styles.css           | styles            |  95 bytes | 
-
-                     | Initial total     | 117.19 kB
-
-Lazy chunk files     | Names             |  Raw size
-chunk-TKBDXVGG.js    | sign-in-component |   9.03 kB | 
-
-
-Server bundles      
-Initial chunk files  | Names             |  Raw size
-polyfills.server.mjs | polyfills.server  | 572.91 kB | 
-chunk-JCZDOQLC.mjs   | -                 |  26.49 kB | 
-server.mjs           | server            |   1.42 kB | 
-main.server.mjs      | main.server       | 831 bytes | 
-chunk-FFILDKJJ.mjs   | -                 | 788 bytes | 
-
-Lazy chunk files     | Names             |  Raw size
-chunk-WOYOEBZL.mjs   | sign-in-component |   9.06 kB | 
-
-Application bundle generation complete. [0.319 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names       |  Raw size
-main.js             | main        |  26.16 kB | 
-
-
-Server bundles     
-Initial chunk files | Names       |  Raw size
-chunk-MXRJQ74X.mjs  | -           |  26.51 kB | 
-server.mjs          | server      |   1.42 kB | 
-main.server.mjs     | main.server | 831 bytes | 
-
-Application bundle generation complete. [0.209 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles     
-Initial chunk files  | Names             |  Raw size
-polyfills.js         | polyfills         |  90.20 kB | 
-main.js              | main              |  26.16 kB | 
-chunk-YQOESBWP.js    | -                 | 754 bytes | 
-styles.css           | styles            |  95 bytes | 
-
-                     | Initial total     | 117.21 kB
-
-Lazy chunk files     | Names             |  Raw size
-chunk-TKBDXVGG.js    | sign-in-component |   9.03 kB | 
-
-
-Server bundles      
-Initial chunk files  | Names             |  Raw size
-polyfills.server.mjs | polyfills.server  | 572.91 kB | 
-chunk-MXRJQ74X.mjs   | -                 |  26.51 kB | 
-server.mjs           | server            |   1.42 kB | 
-main.server.mjs      | main.server       | 831 bytes | 
-chunk-FFILDKJJ.mjs   | -                 | 788 bytes | 
-
-Lazy chunk files     | Names             |  Raw size
-chunk-WOYOEBZL.mjs   | sign-in-component |   9.06 kB | 
-
-Application bundle generation complete. [0.165 seconds]
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.189 seconds]
-
-✘ [ERROR] NG9: Property 'currentRoute' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:11:
-      11 │     *ngIf="currentRoute !== '/' && currentRoute !== ''"
-         ╵            ~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'currentRoute' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:35:
-      11 │     *ngIf="currentRoute !== '/' && currentRoute !== ''"
-         ╵                                    ~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'currentRoute' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.html:16:11:
-      16 │     *ngIf="currentRoute !== '/sign-in'"
-         ╵            ~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.282 seconds]
-
-✘ [ERROR] NG9: Property 'currentRoute' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:11:
-      11 │     *ngIf="currentRoute !== '/' && currentRoute !== ''"
-         ╵            ~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'currentRoute' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:35:
-      11 │     *ngIf="currentRoute !== '/' && currentRoute !== ''"
-         ╵                                    ~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'currentRoute' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.html:16:11:
-      16 │     *ngIf="currentRoute !== '/sign-in'"
-         ╵            ~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.176 seconds]
-
-✘ [ERROR] NG9: Property 'currentRoute' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:11:
-      11 │     *ngIf="currentRoute !== '/' && currentRoute !== ''"
-         ╵            ~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'currentRoute' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.html:11:35:
-      11 │     *ngIf="currentRoute !== '/' && currentRoute !== ''"
-         ╵                                    ~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'currentRoute' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.html:16:11:
-      16 │     *ngIf="currentRoute !== '/sign-in'"
-         ╵            ~~~~~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:8:15:
-      8 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.304 seconds]
-
-✘ [ERROR] NG9: Property 'location' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.html:27:72:
-      27 │ ...n" type="text" [(ngModel)]="location" placeholder="Enter your c...
-         ╵                                ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:9:15:
-      9 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'location' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.html:27:72:
-      27 │ ...n" type="text" [(ngModel)]="location" placeholder="Enter your c...
-         ╵                                ~~~~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:9:15:
-      9 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles     
-Initial chunk files  | Names             |  Raw size
-polyfills.js         | polyfills         |  90.20 kB | 
 main.js              | main              |  26.32 kB | 
 chunk-YQOESBWP.js    | -                 | 754 bytes | 
 styles.css           | styles            |  95 bytes | 
@@ -911,7 +22,7 @@ chunk-TKBDXVGG.js    | sign-in-component |   9.03 kB |
 Server bundles      
 Initial chunk files  | Names             |  Raw size
 polyfills.server.mjs | polyfills.server  | 572.91 kB | 
-chunk-IAVUMXZR.mjs   | -                 |  26.67 kB | 
+chunk-54B3JC2B.mjs   | -                 |  26.67 kB | 
 server.mjs           | server            |   1.42 kB | 
 main.server.mjs      | main.server       | 831 bytes | 
 chunk-FFILDKJJ.mjs   | -                 | 788 bytes | 
@@ -919,28 +30,104 @@ chunk-FFILDKJJ.mjs   | -                 | 788 bytes |
 Lazy chunk files     | Names             |  Raw size
 chunk-WOYOEBZL.mjs   | sign-in-component |   9.06 kB | 
 
-Application bundle generation complete. [0.338 seconds]
+Application bundle generation complete. [2.380 seconds]
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.17.0.2:3000/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names             |  Raw size
+main.js             | main              |  26.32 kB | 
+
+Lazy chunk files    | Names             |  Raw size
+chunk-EHA7E6EL.js   | sign-in-component |  17.23 kB | 
+
+
+Server bundles     
+Initial chunk files | Names             |  Raw size
+chunk-YRFXUFKL.mjs  | -                 |  26.67 kB | 
+server.mjs          | server            |   1.42 kB | 
+main.server.mjs     | main.server       | 831 bytes | 
+
+Lazy chunk files    | Names             |  Raw size
+chunk-4FZNLKYA.mjs  | sign-in-component |  17.27 kB | 
+
+Application bundle generation complete. [0.658 seconds]
 
 Page reload sent to client(s).
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
-Server bundles     
-Initial chunk files | Names       |  Raw size
-chunk-SLITIYL2.mjs  | -           |  26.67 kB | 
-server.mjs          | server      |   1.42 kB | 
-main.server.mjs     | main.server | 831 bytes | 
+Application bundle generation failed. [0.562 seconds]
 
-Application bundle generation complete. [0.274 seconds]
+✘ [ERROR] TS2339: Property 'router' does not exist on type 'AppComponent'. [plugin angular-compiler]
 
-Page reload sent to client(s).
+    src/app/app.component.ts:151:16:
+      151 │     return this.router.url;
+          ╵                 ~~~~~~
+
+
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
-Server bundles     
-Initial chunk files | Names       |  Raw size
-chunk-54B3JC2B.mjs  | -           |  26.67 kB | 
-server.mjs          | server      |   1.42 kB | 
-main.server.mjs     | main.server | 831 bytes | 
+Application bundle generation failed. [0.196 seconds]
 
-Application bundle generation complete. [0.161 seconds]
+✘ [ERROR] TS2339: Property 'router' does not exist on type 'AppComponent'. [plugin angular-compiler]
+
+    src/app/app.component.ts:151:16:
+      151 │     return this.router.url;
+          ╵                 ~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.397 seconds]
+
+✘ [ERROR] TS2339: Property 'router' does not exist on type 'AppComponent'. [plugin angular-compiler]
+
+    src/app/app.component.ts:151:16:
+      151 │     return this.router.url;
+          ╵                 ~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.418 seconds]
+
+✘ [ERROR] TS2339: Property 'router' does not exist on type 'AppComponent'. [plugin angular-compiler]
+
+    src/app/app.component.ts:151:16:
+      151 │     return this.router.url;
+          ╵                 ~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles     
+Initial chunk files  | Names             |  Raw size
+polyfills.js         | polyfills         |  90.20 kB | 
+main.js              | main              |  26.21 kB | 
+chunk-YQOESBWP.js    | -                 | 754 bytes | 
+styles.css           | styles            |  95 bytes | 
+
+                     | Initial total     | 117.26 kB
+
+Lazy chunk files     | Names             |  Raw size
+chunk-FAHOZ46Z.js    | sign-in-component |  17.23 kB | 
+
+
+Server bundles      
+Initial chunk files  | Names             |  Raw size
+polyfills.server.mjs | polyfills.server  | 572.91 kB | 
+chunk-WW45GD7D.mjs   | -                 |  26.55 kB | 
+server.mjs           | server            |   1.42 kB | 
+main.server.mjs      | main.server       | 831 bytes | 
+chunk-FFILDKJJ.mjs   | -                 | 788 bytes | 
+
+Lazy chunk files     | Names             |  Raw size
+chunk-CRD7BGR5.mjs   | sign-in-component |  17.27 kB | 
+
+Application bundle generation complete. [0.261 seconds]
 
 Page reload sent to client(s).
