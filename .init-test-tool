@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/weekendwayfinder-35322-c911f825/weekendwayfinder_frontend"
+}

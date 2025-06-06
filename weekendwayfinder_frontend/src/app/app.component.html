@@ -1,0 +1,63 @@
+<!-- WeekendWayfinder Main UI Container: Travel-Themed & Responsive -->
+
+<!-- Overlay for background tint -->
+<div class="wwf-overlay"></div>
+
+<!-- Centered Input Card -->
+<section class="wwf-input-card" aria-label="WeekendWayfinder trip input section">
+  <h1>WeekendWayfinder</h1>
+  <form autocomplete="off">
+
+    <div class="wwf-field">
+      <label for="wwf-location">Your Location</label>
+      <input id="wwf-location" name="location" type="text" [(ngModel)]="location" placeholder="Enter your city or zip code" />
+    </div>
+
+    <div class="wwf-field">
+      <label for="wwf-budget">Budget ($)</label>
+      <input id="wwf-budget" name="budget" type="number" min="0" [(ngModel)]="budget" placeholder="Estimate budget" />
+    </div>
+
+    <div class="wwf-field">
+      <label for="wwf-mood">Mood</label>
+      <select id="wwf-mood" name="mood" [(ngModel)]="mood">
+        <option value="">Select mood&hellip;</option>
+        <option *ngFor="let m of moods" [ngValue]="m.value">{{ m.label }}</option>
+      </select>
+    </div>
+    <!-- Visual hint: suggestions below auto-update! -->
+    <div style="color:#1E90FF99; font-size:0.98rem; text-align:right; margin: -6px 0 0 0;">
+      <em>Suggestions appear below in real time</em>
+    </div>
+  </form>
+</section>
+
+<!-- Trip Suggestions Section -->
+<section class="wwf-suggestions-section" aria-label="Trip Suggestions">
+  <div class="wwf-suggestions-title">Suggested Micro-Trips</div>
+  <div class="wwf-cards-row">
+    <div class="wwf-suggestion-card" *ngFor="let suggestion of filteredSuggestions; let i = index">
+      <h2>{{ suggestion.destination }}</h2>
+      <div class="wwf-suggestion-details">
+        <span class="wwf-label">Duration:</span> {{ suggestion.days }} day{{ suggestion.days > 1 ? 's' : '' }}
+      </div>
+      <div class="wwf-suggestion-details">
+        <span class="wwf-label">Activities:</span>
+        <ul class="wwf-suggestion-list">
+          <li *ngFor="let act of suggestion.activities">{{ act }}</li>
+        </ul>
+      </div>
+      <div class="wwf-suggestion-details">
+        <span class="wwf-label">Food:</span> {{ suggestion.food }}
+      </div>
+      <div class="wwf-suggestion-details">
+        <span class="wwf-label">Packing List:</span> {{ suggestion.packing }}
+      </div>
+      <div style="margin-top:6px;">
+        <span class="wwf-suggestion-pill">{{ getMoodLabel(suggestion.mood) }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- No router/nav/login UI (as required) -->
