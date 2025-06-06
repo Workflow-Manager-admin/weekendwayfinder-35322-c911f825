@@ -9,104 +9,6 @@ The "disableHostCheck" option will not be used because it is not supported by th
 Browser bundles     
 Initial chunk files  | Names             |  Raw size
 polyfills.js         | polyfills         |  90.20 kB | 
-main.js              | main              |  26.32 kB | 
-chunk-YQOESBWP.js    | -                 | 754 bytes | 
-styles.css           | styles            |  95 bytes | 
-
-                     | Initial total     | 117.37 kB
-
-Lazy chunk files     | Names             |  Raw size
-chunk-TKBDXVGG.js    | sign-in-component |   9.03 kB | 
-
-
-Server bundles      
-Initial chunk files  | Names             |  Raw size
-polyfills.server.mjs | polyfills.server  | 572.91 kB | 
-chunk-54B3JC2B.mjs   | -                 |  26.67 kB | 
-server.mjs           | server            |   1.42 kB | 
-main.server.mjs      | main.server       | 831 bytes | 
-chunk-FFILDKJJ.mjs   | -                 | 788 bytes | 
-
-Lazy chunk files     | Names             |  Raw size
-chunk-WOYOEBZL.mjs   | sign-in-component |   9.06 kB | 
-
-Application bundle generation complete. [2.380 seconds]
-
-Watch mode enabled. Watching for file changes...
-NOTE: Raw file sizes do not reflect development server per-request transformations.
-  ➜  Local:   http://localhost:3000/
-  ➜  Network: http://172.17.0.2:3000/
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names             |  Raw size
-main.js             | main              |  26.32 kB | 
-
-Lazy chunk files    | Names             |  Raw size
-chunk-EHA7E6EL.js   | sign-in-component |  17.23 kB | 
-
-
-Server bundles     
-Initial chunk files | Names             |  Raw size
-chunk-YRFXUFKL.mjs  | -                 |  26.67 kB | 
-server.mjs          | server            |   1.42 kB | 
-main.server.mjs     | main.server       | 831 bytes | 
-
-Lazy chunk files    | Names             |  Raw size
-chunk-4FZNLKYA.mjs  | sign-in-component |  17.27 kB | 
-
-Application bundle generation complete. [0.658 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.562 seconds]
-
-✘ [ERROR] TS2339: Property 'router' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.ts:151:16:
-      151 │     return this.router.url;
-          ╵                 ~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.196 seconds]
-
-✘ [ERROR] TS2339: Property 'router' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.ts:151:16:
-      151 │     return this.router.url;
-          ╵                 ~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.397 seconds]
-
-✘ [ERROR] TS2339: Property 'router' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.ts:151:16:
-      151 │     return this.router.url;
-          ╵                 ~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.418 seconds]
-
-✘ [ERROR] TS2339: Property 'router' does not exist on type 'AppComponent'. [plugin angular-compiler]
-
-    src/app/app.component.ts:151:16:
-      151 │     return this.router.url;
-          ╵                 ~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles     
-Initial chunk files  | Names             |  Raw size
-polyfills.js         | polyfills         |  90.20 kB | 
 main.js              | main              |  26.21 kB | 
 chunk-YQOESBWP.js    | -                 | 754 bytes | 
 styles.css           | styles            |  95 bytes | 
@@ -128,6 +30,107 @@ chunk-FFILDKJJ.mjs   | -                 | 788 bytes |
 Lazy chunk files     | Names             |  Raw size
 chunk-CRD7BGR5.mjs   | sign-in-component |  17.27 kB | 
 
-Application bundle generation complete. [0.261 seconds]
+Application bundle generation complete. [2.446 seconds]
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.17.0.2:3000/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.567 seconds]
+
+✘ [ERROR] NG9: Property 'openForgotDialog' does not exist on type 'SignInComponent'. [plugin angular-compiler]
+
+    src/app/sign-in.component.ts:53:169:
+      53 │ ...x="0" href="#" (click)="openForgotDialog($event)">Reset here</a...
+         ╵                            ~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.310 seconds]
+
+✘ [ERROR] NG9: Property 'openForgotDialog' does not exist on type 'SignInComponent'. [plugin angular-compiler]
+
+    src/app/sign-in.component.ts:53:169:
+      53 │ ...x="0" href="#" (click)="openForgotDialog($event)">Reset here</a...
+         ╵                            ~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.415 seconds]
+
+✘ [ERROR] NG9: Property 'openForgotDialog' does not exist on type 'SignInComponent'. [plugin angular-compiler]
+
+    src/app/sign-in.component.ts:53:169:
+      53 │ ...x="0" href="#" (click)="openForgotDialog($event)">Reset here</a...
+         ╵                            ~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG9: Property 'forgotOpen' does not exist on type 'SignInComponent'. [plugin angular-compiler]
+
+    src/app/sign-in.component.ts:59:17:
+      59 │           *ngIf="forgotOpen"
+         ╵                  ~~~~~~~~~~
+
+
+✘ [ERROR] NG9: Property 'closeForgotDialog' does not exist on type 'SignInComponent'. [plugin angular-compiler]
+
+    src/app/sign-in.component.ts:69:82:
+      69 │ ...ss="wwf-theme-btn wwf-forgot-close" (click)="closeForgotDialog()">
+         ╵                                                 ~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles     
+Initial chunk files  | Names             |  Raw size
+polyfills.js         | polyfills         |  90.20 kB | 
+main.js              | main              |  26.21 kB | 
+chunk-YQOESBWP.js    | -                 | 754 bytes | 
+styles.css           | styles            |  95 bytes | 
+
+                     | Initial total     | 117.26 kB
+
+Lazy chunk files     | Names             |  Raw size
+chunk-TVXA5GFH.js    | sign-in-component |  23.23 kB | 
+
+
+Server bundles      
+Initial chunk files  | Names             |  Raw size
+polyfills.server.mjs | polyfills.server  | 572.91 kB | 
+chunk-WZK6LSIN.mjs   | -                 |  26.55 kB | 
+server.mjs           | server            |   1.42 kB | 
+main.server.mjs      | main.server       | 831 bytes | 
+chunk-FFILDKJJ.mjs   | -                 | 788 bytes | 
+
+Lazy chunk files     | Names             |  Raw size
+chunk-WZNXGQGO.mjs   | sign-in-component |  23.27 kB | 
+
+Application bundle generation complete. [0.385 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names             |  Raw size
+main.js             | main              |  26.21 kB | 
+
+Lazy chunk files    | Names             |  Raw size
+chunk-GJG56CKR.js   | sign-in-component |  26.98 kB | 
+
+
+Server bundles     
+Initial chunk files | Names             |  Raw size
+chunk-NU5MUQ5J.mjs  | -                 |  26.55 kB | 
+server.mjs          | server            |   1.42 kB | 
+main.server.mjs     | main.server       | 831 bytes | 
+
+Lazy chunk files    | Names             |  Raw size
+chunk-HIPQEXMN.mjs  | sign-in-component |  27.01 kB | 
+
+Application bundle generation complete. [0.346 seconds]
 
 Page reload sent to client(s).
