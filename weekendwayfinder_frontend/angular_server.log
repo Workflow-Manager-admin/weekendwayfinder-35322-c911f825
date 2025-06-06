@@ -16,21 +16,21 @@ styles.css           | styles            |  95 bytes |
                      | Initial total     | 117.26 kB
 
 Lazy chunk files     | Names             |  Raw size
-chunk-FAHOZ46Z.js    | sign-in-component |  17.23 kB | 
+chunk-GJG56CKR.js    | sign-in-component |  26.98 kB | 
 
 
 Server bundles      
 Initial chunk files  | Names             |  Raw size
 polyfills.server.mjs | polyfills.server  | 572.91 kB | 
-chunk-WW45GD7D.mjs   | -                 |  26.55 kB | 
+chunk-NU5MUQ5J.mjs   | -                 |  26.55 kB | 
 server.mjs           | server            |   1.42 kB | 
 main.server.mjs      | main.server       | 831 bytes | 
 chunk-FFILDKJJ.mjs   | -                 | 788 bytes | 
 
 Lazy chunk files     | Names             |  Raw size
-chunk-CRD7BGR5.mjs   | sign-in-component |  17.27 kB | 
+chunk-HIPQEXMN.mjs   | sign-in-component |  27.01 kB | 
 
-Application bundle generation complete. [2.446 seconds]
+Application bundle generation complete. [2.589 seconds]
 
 Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
@@ -38,99 +38,17 @@ NOTE: Raw file sizes do not reflect development server per-request transformatio
   ➜  Network: http://172.17.0.2:3000/
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.567 seconds]
-
-✘ [ERROR] NG9: Property 'openForgotDialog' does not exist on type 'SignInComponent'. [plugin angular-compiler]
-
-    src/app/sign-in.component.ts:53:169:
-      53 │ ...x="0" href="#" (click)="openForgotDialog($event)">Reset here</a...
-         ╵                            ~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.310 seconds]
-
-✘ [ERROR] NG9: Property 'openForgotDialog' does not exist on type 'SignInComponent'. [plugin angular-compiler]
-
-    src/app/sign-in.component.ts:53:169:
-      53 │ ...x="0" href="#" (click)="openForgotDialog($event)">Reset here</a...
-         ╵                            ~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.415 seconds]
-
-✘ [ERROR] NG9: Property 'openForgotDialog' does not exist on type 'SignInComponent'. [plugin angular-compiler]
-
-    src/app/sign-in.component.ts:53:169:
-      53 │ ...x="0" href="#" (click)="openForgotDialog($event)">Reset here</a...
-         ╵                            ~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'forgotOpen' does not exist on type 'SignInComponent'. [plugin angular-compiler]
-
-    src/app/sign-in.component.ts:59:17:
-      59 │           *ngIf="forgotOpen"
-         ╵                  ~~~~~~~~~~
-
-
-✘ [ERROR] NG9: Property 'closeForgotDialog' does not exist on type 'SignInComponent'. [plugin angular-compiler]
-
-    src/app/sign-in.component.ts:69:82:
-      69 │ ...ss="wwf-theme-btn wwf-forgot-close" (click)="closeForgotDialog()">
-         ╵                                                 ~~~~~~~~~~~~~~~~~
-
-
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles     
-Initial chunk files  | Names             |  Raw size
-polyfills.js         | polyfills         |  90.20 kB | 
-main.js              | main              |  26.21 kB | 
-chunk-YQOESBWP.js    | -                 | 754 bytes | 
-styles.css           | styles            |  95 bytes | 
-
-                     | Initial total     | 117.26 kB
-
-Lazy chunk files     | Names             |  Raw size
-chunk-TVXA5GFH.js    | sign-in-component |  23.23 kB | 
-
-
-Server bundles      
-Initial chunk files  | Names             |  Raw size
-polyfills.server.mjs | polyfills.server  | 572.91 kB | 
-chunk-WZK6LSIN.mjs   | -                 |  26.55 kB | 
-server.mjs           | server            |   1.42 kB | 
-main.server.mjs      | main.server       | 831 bytes | 
-chunk-FFILDKJJ.mjs   | -                 | 788 bytes | 
-
-Lazy chunk files     | Names             |  Raw size
-chunk-WZNXGQGO.mjs   | sign-in-component |  23.27 kB | 
-
-Application bundle generation complete. [0.385 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
 Browser bundles    
-Initial chunk files | Names             |  Raw size
-main.js             | main              |  26.21 kB | 
-
-Lazy chunk files    | Names             |  Raw size
-chunk-GJG56CKR.js   | sign-in-component |  26.98 kB | 
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  32.23 kB | 
 
 
 Server bundles     
-Initial chunk files | Names             |  Raw size
-chunk-NU5MUQ5J.mjs  | -                 |  26.55 kB | 
-server.mjs          | server            |   1.42 kB | 
-main.server.mjs     | main.server       | 831 bytes | 
+Initial chunk files | Names       |  Raw size
+chunk-MO3W7252.mjs  | -           |  32.64 kB | 
+server.mjs          | server      |   1.42 kB | 
+main.server.mjs     | main.server | 831 bytes | 
 
-Lazy chunk files    | Names             |  Raw size
-chunk-HIPQEXMN.mjs  | sign-in-component |  27.01 kB | 
-
-Application bundle generation complete. [0.346 seconds]
+Application bundle generation complete. [0.548 seconds]
 
 Page reload sent to client(s).
