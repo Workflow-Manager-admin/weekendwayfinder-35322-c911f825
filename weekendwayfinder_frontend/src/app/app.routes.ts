@@ -7,5 +7,9 @@ export const routes: Routes = [
     pathMatch: 'full',
     component: HomepageComponent
   },
+  {
+    path: 'sign-in',
+    loadComponent: () => import('./sign-in.component').then(m => m.SignInComponent)
+  }
   // Additional feature routes (such as main trip planner) can be added here
 ];
